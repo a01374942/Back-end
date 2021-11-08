@@ -11,7 +11,7 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 * **método**: *`POST`*
 * **body:**
 
-  ```javascript
+  ```JSON
     {
     "Nombre": "Museo Tlaxcala",
     "Ubicacion": "Puebla",
