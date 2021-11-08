@@ -9,11 +9,16 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
    * *Descripción* 
 * **end point**: *`/Museos/agregarMuseos`*
 * **método**: *`POST`*
-* **body**:  ```javascript
-    {
-    "Nombre": "Museo Tlaxcala",
-    "Ubicacion": "Puebla",
-    "Descripcion": "Bn",
-    "Fecha": "2019"
-    }
+* **body**: 
+* **Sample Call:**
+
+  ```javascript
+    $.ajax({
+      url: "/users/1",
+      dataType: "json",
+      type : "GET",
+      success : function(r) {
+        console.log(r);
+      }
+    });
   ```
