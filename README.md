@@ -20,7 +20,7 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
     }
   ```
 * **validaciones**:
-___
+
 | Campo | Validación |
 | --- | --- |
 | `Nombre` | 	*Debe ser un string entre 5 y 50 caracteres* |
