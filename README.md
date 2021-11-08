@@ -2,7 +2,7 @@
 
 # **Agregar Museo** 
 Este metodo nos permite agregar a nuestra base de datos un Museo con los siguientes datos:
-* Nombre
+*   * Nombre
 *   * Ubicación
 *   * Fecha de Apertura
 *   * Descripción
