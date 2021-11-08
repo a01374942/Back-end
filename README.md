@@ -3,7 +3,7 @@
 # **Agregar Museo** 
 Este metodo nos permite agregar a nuestra base de datos un *Museo* con los siguientes datos:
 * Los museos se componen de: 
- * Hola 
+   * Hola 
 * **end point**: *`/Museos/agregarMuseos`*
 * **método**: *`POST`*
 * **body**:  
