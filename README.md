@@ -12,8 +12,8 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 * **body**: 
 * **Sample Call:**
 
-  ```javascript
-    $.ajax({
+  ```jason
+    ajax({
       url: "/users/1",
       dataType: "json",
       type : "GET",
