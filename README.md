@@ -1,8 +1,8 @@
 # Actividad 3 -- Back-End
 
 # **Agregar Museo** 
-Este metodo nos permite agregar a nuestra base de datos un *Museo* con los siguientes datos:
- Los museos se componen de: 
+Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee el usuario
+* Los museos se componen de los siguientes datos: 
    * *Nombre*
    * *Ubicación*
    * *Fecha*
