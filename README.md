@@ -80,3 +80,40 @@ HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Actualizado"`
 * **respuesta con error:**
 HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
 
+-------------------------------------------------
+## **Borrar Museo** 
+Este metodo nos permite *borrar* toda la información del *Museo* 
+* Se elimina de acuerdo al *Nombre* del Museo que queremos borrar
+* **end point**: *`/Museos/actualizarMuseos`*
+* **método**: *`POST`*
+* **body:**
+
+  ```JSON
+    {
+    "Nombre": "Museo Soumaya",
+    "actualizar": {
+        "Ubicacion": "Ciudad de México",
+        "Fecha": "1923"
+      }
+    }
+  ```
+* **validaciones**:
+
+| Campo | Validación |
+| :---: | :---: |
+| `Nombre` | 	*El museo debe de estar registrado* |
+| `actualizar` | 	*La actualización debe ser dentro de este campo* |
+
+
+* **errores**:
+
+| Código | Mensaje | HTTP |
+| :---: | :---: | :---: |
+| `InvalidBodyException` | *El museo no está registrado en la base de datos* | 422 |
+
+* **respuesta:**
+HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Actualizado"`
+
+* **respuesta con error:**
+HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
+
