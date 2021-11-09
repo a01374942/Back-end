@@ -64,20 +64,17 @@ Este metodo nos permite *actualizar* los datos en nuestra base de datos de los *
 
 | Campo | Validación |
 | :---: | :---: |
-| `Nombre` | 	*Es un dato obligatorio y debe ser un string entre 5 y 50 caracteres* |
-| `Descripción` | *Debe ser un string entre 10 y 250 caracteres* |
-| `Museo` | *El nombre del museo no debe de estar registrado* |
+| `Nombre` | 	*El museo debe de estar registrado* |
+
 
 * **errores**:
 
 | Código | Mensaje | HTTP |
 | :---: | :---: | :---: |
-| `InvalidBodyException` | *El nombre debe de ser entre 5 y 50 caracteres* | 422 |
-| `InvalidBodyException` | *El nombre debe de ser entre 10 y 250 caracteres* | 422 |
-| `InvalidBodyException` | *El museo ya está registrado* | 422 |
+| `InvalidBodyException` | *El museo no está registrado en la base de datos* | 422 |
 
 * **respuesta:**
-HTTP status 200 y el siguiente *mensaje*: `"operacion": "Correcta"`
+HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Actualizado"`
 
 * **respuesta con error:**
 HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
