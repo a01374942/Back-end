@@ -117,13 +117,6 @@ Este metodo nos permite *obtener* toda la información en la base de datos de to
 * Se elimina de acuerdo al *Nombre* del Museo que queremos borrar
 * **end point**: *`/Museos/obtenerMuseos`*
 * **método**: *`GET`*
-* **body:**
-
-  ```JSON
-    {
-    "Nombre": "Museo Soumaya"
-    }
-  ```
 * **validaciones**:
 
 | Campo | Validación |
@@ -139,6 +132,13 @@ Este metodo nos permite *obtener* toda la información en la base de datos de to
 * **respuesta:**
 HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Eliminado"`
 
-* **respuesta con error:**
-HTTP status 500 y el siguiente *mensaje*: `"operacion": "Museo no encontrado"`
-
+  ```JSON
+    {
+        "_id": "6189c22a2f1daf27d71f0edf",
+        "Nombre": "Museo Soumaya",
+        "Ubicacion": "Ciudad de México",
+        "Fecha": "1923",
+        "Descripcion": "h",
+        "__v": 0
+    }
+  ```
