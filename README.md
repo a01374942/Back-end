@@ -21,15 +21,15 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
   ```
 * **validaciones**:
 
-| Campo | Validación | HTTP |
-| :---: | :---: | :---: |
-| `Nombre` | 	*Debe ser un string entre 5 y 50 caracteres* |  |
-| `Descripción` | *Debe ser un string entre 10 y 250 caracteres* |  |
+| Campo | Validación |
+| :---: | :---: |
+| `Nombre` | 	*Debe ser un string entre 5 y 50 caracteres* |
+| `Descripción` | *Debe ser un string entre 10 y 250 caracteres* |
 
 * **errores: **
 
-| Código | Mensaje |
-| :---: | :---: |
-| `InvalidBodyException` | *El nombre debe de ser entre 5 y 50 caracteres* |
-| `InvalidBodyException` | *El nombre debe de ser entre 10 y 250 caracteres* |
+| Código | Mensaje | HTTP |
+| :---: | :---: | :---: |
+| `InvalidBodyException` | *El nombre debe de ser entre 5 y 50 caracteres* | 422 |
+| `InvalidBodyException` | *El nombre debe de ser entre 10 y 250 caracteres* | 422 |
 
