@@ -134,14 +134,16 @@ Este metodo nos permite *obtener* toda la información en la base de datos de to
 HTTP status 200 
 
   ```JSON
-    {
+    [
+      {
         "_id": "6189c22a2f1daf27d71f0edf",
         "Nombre": "Museo Soumaya",
         "Ubicacion": "Ciudad de México",
         "Fecha": "1994",
         "Descripcion": "Conserva, resguarda e investiga la colección de arte y promueve exposiciones temporales"
         "__v": 0
-    }
+      }
+    ]
   ```
 
 ## **Playlist PELICULAS**
@@ -280,13 +282,13 @@ HTTP status 200
 
   ```JSON
     [
-    {
+      {
         "_id": "61832c9406912fd756051dc5",
         "Titulo": "Interestellar",
         "Anio": "2014",
         "Director": "Christoper Nolan",
         "Duracion": "2h49m",
         "__v": 0
-    }
+      }
     ]
   ```
