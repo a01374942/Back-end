@@ -38,3 +38,6 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 * **respuesta:**
 HTTP 200 y el siguiente *mensaje*: `"operacion": "Correcta"`
 
+* **respuesta con error:**
+HTTP 200 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
+
