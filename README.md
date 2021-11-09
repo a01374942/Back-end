@@ -47,16 +47,17 @@ Este metodo nos permite *actualizar* los datos en nuestra base de datos de los *
    * *Ubicación*
    * *Fecha*
    * *Descripción* 
-* **end point**: *`/Museos/agregarMuseos`*
+* **end point**: *`/Museos/actualizarMuseos`*
 * **método**: *`POST`*
 * **body:**
 
   ```JSON
     {
     "Nombre": "Museo Soumaya",
-    "Ubicacion": "CDMX",
-    "Fecha": "1994",
-    "Descripcion": "Conserva, resguarda e investiga la colección de arte y promueve exposiciones temporales"
+    "actualizar": {
+        "Ubicacion": "Ciudad de México",
+        "Fecha": "1923"
+      }
     }
   ```
 * **validaciones**:
