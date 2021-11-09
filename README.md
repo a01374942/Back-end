@@ -1,7 +1,7 @@
 # Actividad 3 -- Back-End
 
 ## **Agregar Museo** 
-Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee el usuario
+Este metodo nos permite *agregar* a nuestra base de datos los *Museos* que desee el usuario
 * Los museos se componen de los siguientes datos: 
    * *Nombre*
    * *Ubicación*
@@ -40,9 +40,9 @@ HTTP status 200 y el siguiente *mensaje*: `"operacion": "Correcta"`
 
 * **respuesta con error:**
 HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
-------------
+-------------------------------------------------
 ## **Actualizar Museo** 
-Este metodo nos permite actualizar los datos en nuestra base de datos de los *Museos* que desee el usuario
+Este metodo nos permite *actualizar* los datos en nuestra base de datos de los *Museos* que desee el usuario
 * Se actualiza de acuerdo al *Nombre* del Museo a actualizar, los datos que se pueden cambiar son los siguientes: 
    * *Ubicación*
    * *Fecha*
