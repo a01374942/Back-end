@@ -36,8 +36,8 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 | `InvalidBodyException` | *El museo ya está registrado* | 422 |
 
 * **respuesta:**
-HTTP 200 y el siguiente *mensaje*: `"operacion": "Correcta"`
+HTTP status 200 y el siguiente *mensaje*: `"operacion": "Correcta"`
 
 * **respuesta con error:**
-HTTP 200 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
+HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
 
