@@ -13,10 +13,10 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 
   ```JSON
     {
-    "Nombre": "Museo Tlaxcala",
-    "Ubicacion": "Puebla",
-    "Descripcion": "Bn",
-    "Fecha": "2019"
+    "Nombre": "Museo Soumaya",
+    "Ubicacion": "CDMX",
+    "Fecha": "1994",
+    "Descripcion": "Conserva, resguarda e investiga la colección de arte y promueve exposiciones temporal itinerantes nacionales e internacionales de diversa índole."
     }
   ```
 * **validaciones**:
