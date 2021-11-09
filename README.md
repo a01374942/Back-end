@@ -45,7 +45,7 @@ HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
 -------------------------------------------------
 ### **Actualizar Museo** 
 Este metodo nos permite *actualizar* los datos en nuestra base de datos de los *Museos* que desee el usuario
-* Se actualiza de acuerdo al *Nombre* del Museo a actualizar, los datos que se pueden cambiar son los siguientes: 
+* Se actualiza de acuerdo al *Nombre* del Museo, los datos que se pueden cambiar son los siguientes: 
    * *Ubicación*
    * *Fecha*
    * *Descripción* 
@@ -191,7 +191,7 @@ HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecta verifica"`
 -------------------------------------------------
 ### **Actualizar Pelicula** 
 Este metodo nos permite *actualizar* los datos en nuestra base de datos de las *Peliculas* que desee el usuario
-* Se actualiza de acuerdo al *Título* de la Pelicula a actualizar, los datos que se pueden cambiar son los siguientes: 
+* Se actualiza de acuerdo al *Título* de la Pelicula, los datos que se pueden cambiar son los siguientes: 
    * *Año*
    * *Director*
    * *Duración* 
