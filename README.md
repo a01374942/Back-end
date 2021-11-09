@@ -121,16 +121,16 @@ Este metodo nos permite *obtener* toda la información en la base de datos de to
 
 | Campo | Validación |
 | :---: | :---: |
-| `Nombre` | 	*El museo debe de estar registrado para poder eliminarlo* |
+| `Route` | 	*La ruta de consulta debe ser correcta* |
 
 * **errores**:
 
 | Código | Mensaje | HTTP |
 | :---: | :---: | :---: |
-| `NameNotFound` | *El Museo no existe* | 500 |
+| `RouteNotFound` | *La ruta de acceso no existe* | 500 |
 
 * **respuesta:**
-HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Eliminado"`
+HTTP status 200 
 
   ```JSON
     {
