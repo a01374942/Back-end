@@ -33,5 +33,5 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 | :---: | :---: | :---: |
 | `InvalidBodyException` | *El nombre debe de ser entre 5 y 50 caracteres* | 422 |
 | `InvalidBodyException` | *El nombre debe de ser entre 10 y 250 caracteres* | 422 |
-| `InvalidBodyException` | *El museo ya fue previamente registrado* | 422 |
+| `InvalidBodyException` | *El museo ya está registrado* | 422 |
 
