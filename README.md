@@ -36,7 +36,7 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 | `InvalidBodyException` | *El museo ya está registrado* | 422 |
 
 * **respuesta:**
-HTTP 200 & message: 
+HTTP 200 y el siguiente *mensaje*: 
 
   ```JSON
     {
