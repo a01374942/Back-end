@@ -137,8 +137,8 @@ HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Eliminado"`
         "_id": "6189c22a2f1daf27d71f0edf",
         "Nombre": "Museo Soumaya",
         "Ubicacion": "Ciudad de México",
-        "Fecha": "1923",
-        "Descripcion": "h",
+        "Fecha": "1994",
+        "Descripcion": "Conserva, resguarda e investiga la colección de arte y promueve exposiciones temporales"
         "__v": 0
     }
   ```
