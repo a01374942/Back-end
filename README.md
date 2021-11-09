@@ -1,6 +1,6 @@
 # Actividad 3 -- Back-End
 
-## **Agregar Museo** 
+### **Agregar Museo** 
 Este metodo nos permite *agregar* a nuestra base de datos los *Museos* que desee el usuario
 * Los museos se componen de los siguientes datos: 
    * *Nombre*
@@ -86,6 +86,37 @@ Este metodo nos permite *borrar* toda la información del *Museo*
 * Se elimina de acuerdo al *Nombre* del Museo que queremos borrar
 * **end point**: *`/Museos/borrarMuseos`*
 * **método**: *`POST`*
+* **body:**
+
+  ```JSON
+    {
+    "Nombre": "Museo Soumaya"
+    }
+  ```
+* **validaciones**:
+
+| Campo | Validación |
+| :---: | :---: |
+| `Nombre` | 	*El museo debe de estar registrado para poder eliminarlo* |
+
+* **errores**:
+
+| Código | Mensaje | HTTP |
+| :---: | :---: | :---: |
+| `NameNotFound` | *El Museo no existe* | 500 |
+
+* **respuesta:**
+HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Eliminado"`
+
+* **respuesta con error:**
+HTTP status 500 y el siguiente *mensaje*: `"operacion": "Museo no encontrado"`
+
+-------------------------------------------------
+## **Obtener Museos** 
+Este metodo nos permite *obtener* toda la información en la base de datos de todos los *Museos* registrados 
+* Se elimina de acuerdo al *Nombre* del Museo que queremos borrar
+* **end point**: *`/Museos/obtenerMuseos`*
+* **método**: *`GET`*
 * **body:**
 
   ```JSON
