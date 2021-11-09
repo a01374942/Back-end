@@ -41,7 +41,7 @@ HTTP status 200 y el siguiente *mensaje*: `"operacion": "Correcta"`
 * **respuesta con error:**
 HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
 -------------------------------------------------
-## **Actualizar Museo** 
+### **Actualizar Museo** 
 Este metodo nos permite *actualizar* los datos en nuestra base de datos de los *Museos* que desee el usuario
 * Se actualiza de acuerdo al *Nombre* del Museo a actualizar, los datos que se pueden cambiar son los siguientes: 
    * *Ubicación*
@@ -81,7 +81,7 @@ HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Actualizado"`
 HTTP status 422 y el siguiente *mensaje*: `"operacion": "incorrecto verifica"`
 
 -------------------------------------------------
-## **Borrar Museo** 
+### **Borrar Museo** 
 Este metodo nos permite *borrar* toda la información del *Museo* 
 * Se elimina de acuerdo al *Nombre* del Museo que queremos borrar
 * **end point**: *`/Museos/borrarMuseos`*
@@ -112,7 +112,7 @@ HTTP status 200 y el siguiente *mensaje*: `"operacion": "Museo Eliminado"`
 HTTP status 500 y el siguiente *mensaje*: `"operacion": "Museo no encontrado"`
 
 -------------------------------------------------
-## **Obtener Museos** 
+### **Obtener Museos** 
 Este metodo nos permite *obtener* toda la información en la base de datos de todos los *Museos* registrados 
 * Se elimina de acuerdo al *Nombre* del Museo que queremos borrar
 * **end point**: *`/Museos/obtenerMuseos`*
