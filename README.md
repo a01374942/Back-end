@@ -23,7 +23,7 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 
 | Campo | Validación |
 | :---: | :---: |
-| `Nombre` | 	*Debe ser un string entre 5 y 50 caracteres* |
+| `Nombre` | 	*Es un dato obligatorio y debe ser un string entre 5 y 50 caracteres* |
 | `Descripción` | *Debe ser un string entre 10 y 250 caracteres* |
 | `Museo` | *El nombre del museo no debe de estar registrado* |
 
