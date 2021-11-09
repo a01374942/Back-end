@@ -35,3 +35,11 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 | `InvalidBodyException` | *El nombre debe de ser entre 10 y 250 caracteres* | 422 |
 | `InvalidBodyException` | *El museo ya está registrado* | 422 |
 
+* **respuesta:**
+HTTP 200 & message: 
+
+  ```JSON
+    {
+    "operacion": "Correcta"
+    }
+  ```
