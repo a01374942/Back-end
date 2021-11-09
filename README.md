@@ -27,7 +27,7 @@ Este metodo nos permite agregar a nuestra base de datos los *Museos* que desee e
 | `Descripción` | *Debe ser un string entre 10 y 250 caracteres* |
 | `Museo` | *El nombre del museo no debe de estar registrado* |
 
-* **errores: **
+* **errores**:
 
 | Código | Mensaje | HTTP |
 | :---: | :---: | :---: |
