@@ -65,6 +65,7 @@ Este metodo nos permite *actualizar* los datos en nuestra base de datos de los *
 | Campo | Validación |
 | :---: | :---: |
 | `Nombre` | 	*El museo debe de estar registrado* |
+| `actualizar` | 	*La actualización debe ser dentro de este campo* |
 
 
 * **errores**:
